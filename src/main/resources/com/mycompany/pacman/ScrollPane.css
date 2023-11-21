@@ -1,0 +1,19 @@
+.scroll-bar:vertical {
+    -fx-background-color: lightgray;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: black;
+    -fx-background-insets: 5, 5, 5;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: lightgray;
+}
